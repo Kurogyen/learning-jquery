@@ -1,0 +1,51 @@
+/* #404040 mint
+#6DBDD6 light blue
+#B71427 red
+#FFE658 light green
+*/
+
+* {
+	font-family: Georgia, Garamond;
+}
+
+h1, h2, h3 {
+	font-family: Helvetica, Arial;
+}
+header {
+	background-color: #FFE658;
+	margin-top:-20px;
+	padding-top: 20px;
+}
+nav {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	background-color: #404040;
+}
+h1 {
+	font-size: 35px;
+	text-align: center;
+	color: #404040;
+}
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+nav ul {
+	text-align: center;
+}
+nav li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.link {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.link:hover {
+	color: #FFE658;
+}
+body {
+	background-color: #6DBDD6;
+}
